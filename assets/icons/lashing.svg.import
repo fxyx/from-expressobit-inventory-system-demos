@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhn1eghhebb7h"
-path="res://.godot/imported/lashing.svg-ca16ccd3e1cf07a7bd2962203a17dab6.ctex"
+path="res://.godot/imported/lashing.svg-8f53129a29ed44ab2fdfcff66d983866.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/icons/lashing.svg"
-dest_files=["res://.godot/imported/lashing.svg-ca16ccd3e1cf07a7bd2962203a17dab6.ctex"]
+source_file="res://assets/icons/lashing.svg"
+dest_files=["res://.godot/imported/lashing.svg-8f53129a29ed44ab2fdfcff66d983866.ctex"]
 
 [params]
 

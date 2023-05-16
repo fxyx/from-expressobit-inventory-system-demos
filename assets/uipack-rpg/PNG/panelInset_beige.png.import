@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o67rdxq6qg4h"
-path="res://.godot/imported/panelInset_beige.png-aa5b98e8947fe86f670969adecb47df7.ctex"
+path="res://.godot/imported/panelInset_beige.png-2571634318faeef323254b3a583079b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/panelInset_beige.png"
-dest_files=["res://.godot/imported/panelInset_beige.png-aa5b98e8947fe86f670969adecb47df7.ctex"]
+source_file="res://assets/uipack-rpg/PNG/panelInset_beige.png"
+dest_files=["res://.godot/imported/panelInset_beige.png-2571634318faeef323254b3a583079b1.ctex"]
 
 [params]
 

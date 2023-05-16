@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddgl6y81cyihg"
-path="res://.godot/imported/buttonRound_brown.png-c828f143bad9053796c6bb65bb0f2473.ctex"
+path="res://.godot/imported/buttonRound_brown.png-2440e95ac48e4eb889c81e81b992fb2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/buttonRound_brown.png"
-dest_files=["res://.godot/imported/buttonRound_brown.png-c828f143bad9053796c6bb65bb0f2473.ctex"]
+source_file="res://assets/uipack-rpg/PNG/buttonRound_brown.png"
+dest_files=["res://.godot/imported/buttonRound_brown.png-2440e95ac48e4eb889c81e81b992fb2e.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bpk1q5aoikje0"
-path="res://.godot/imported/structureCloth.glb-c9bd758323e872086fe5808dce8e7391.scn"
+path="res://.godot/imported/structureCloth.glb-64eabb3c4b4269f51081d4cc75b81e2a.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/structureCloth.glb"
-dest_files=["res://.godot/imported/structureCloth.glb-c9bd758323e872086fe5808dce8e7391.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/structureCloth.glb"
+dest_files=["res://.godot/imported/structureCloth.glb-64eabb3c4b4269f51081d4cc75b81e2a.scn"]
 
 [params]
 

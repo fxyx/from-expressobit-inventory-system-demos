@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bk4j7ww4qljp"
-path="res://.godot/imported/toolAxe.glb-be28927368e4087b954be055e1ac5616.scn"
+path="res://.godot/imported/toolAxe.glb-1a00ba480a15a01d13941a8b20db12fd.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/toolAxe.glb"
-dest_files=["res://.godot/imported/toolAxe.glb-be28927368e4087b954be055e1ac5616.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/toolAxe.glb"
+dest_files=["res://.godot/imported/toolAxe.glb-1a00ba480a15a01d13941a8b20db12fd.scn"]
 
 [params]
 

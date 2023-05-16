@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwu2qfpetlib6"
-path="res://.godot/imported/buttonLong_blue.png-022e3cedc88e3322c1c331e237faf777.ctex"
+path="res://.godot/imported/buttonLong_blue.png-9b0e8dd55c86c2171656c8800bbe0788.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/buttonLong_blue.png"
-dest_files=["res://.godot/imported/buttonLong_blue.png-022e3cedc88e3322c1c331e237faf777.ctex"]
+source_file="res://assets/uipack-rpg/PNG/buttonLong_blue.png"
+dest_files=["res://.godot/imported/buttonLong_blue.png-9b0e8dd55c86c2171656c8800bbe0788.ctex"]
 
 [params]
 

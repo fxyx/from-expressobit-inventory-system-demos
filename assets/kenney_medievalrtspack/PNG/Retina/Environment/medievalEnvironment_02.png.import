@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcnh42qjj0nw6"
-path="res://.godot/imported/medievalEnvironment_02.png-daec3943f56b1c3034fcab9a5ca926c6.ctex"
+path="res://.godot/imported/medievalEnvironment_02.png-4866365ff731bd06ff877bbb217c1ca9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/kenney_medievalrtspack/PNG/Retina/Environment/medievalEnvironment_02.png"
-dest_files=["res://.godot/imported/medievalEnvironment_02.png-daec3943f56b1c3034fcab9a5ca926c6.ctex"]
+source_file="res://assets/kenney_medievalrtspack/PNG/Retina/Environment/medievalEnvironment_02.png"
+dest_files=["res://.godot/imported/medievalEnvironment_02.png-4866365ff731bd06ff877bbb217c1ca9.ctex"]
 
 [params]
 

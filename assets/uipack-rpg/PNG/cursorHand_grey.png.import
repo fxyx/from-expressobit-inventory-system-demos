@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceitlk4illn7k"
-path="res://.godot/imported/cursorHand_grey.png-7f5b827317cc13241981ac49df64104a.ctex"
+path="res://.godot/imported/cursorHand_grey.png-d4b108b0d6da1f3fd8223c50b5bb0a4e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/cursorHand_grey.png"
-dest_files=["res://.godot/imported/cursorHand_grey.png-7f5b827317cc13241981ac49df64104a.ctex"]
+source_file="res://assets/uipack-rpg/PNG/cursorHand_grey.png"
+dest_files=["res://.godot/imported/cursorHand_grey.png-d4b108b0d6da1f3fd8223c50b5bb0a4e.ctex"]
 
 [params]
 

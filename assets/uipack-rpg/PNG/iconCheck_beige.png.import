@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmmol6lkoqoct"
-path="res://.godot/imported/iconCheck_beige.png-9dc13160f62e3413ddd6d103188de164.ctex"
+path="res://.godot/imported/iconCheck_beige.png-266a10250cde35507fc35983e7663150.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/iconCheck_beige.png"
-dest_files=["res://.godot/imported/iconCheck_beige.png-9dc13160f62e3413ddd6d103188de164.ctex"]
+source_file="res://assets/uipack-rpg/PNG/iconCheck_beige.png"
+dest_files=["res://.godot/imported/iconCheck_beige.png-266a10250cde35507fc35983e7663150.ctex"]
 
 [params]
 

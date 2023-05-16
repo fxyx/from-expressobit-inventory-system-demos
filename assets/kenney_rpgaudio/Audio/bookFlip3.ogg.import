@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c274y2iyjh0wk"
-path="res://.godot/imported/bookFlip3.ogg-a136b5767bb55ae7ce575ae3fa67bb2f.oggvorbisstr"
+path="res://.godot/imported/bookFlip3.ogg-7746ff448a21fd4ef5885b56495be73b.oggvorbisstr"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/kenney_rpgaudio/Audio/bookFlip3.ogg"
-dest_files=["res://.godot/imported/bookFlip3.ogg-a136b5767bb55ae7ce575ae3fa67bb2f.oggvorbisstr"]
+source_file="res://assets/kenney_rpgaudio/Audio/bookFlip3.ogg"
+dest_files=["res://.godot/imported/bookFlip3.ogg-7746ff448a21fd4ef5885b56495be73b.oggvorbisstr"]
 
 [params]
 

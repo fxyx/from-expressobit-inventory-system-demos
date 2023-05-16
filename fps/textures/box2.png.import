@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxy7w623nffdo"
-path.s3tc="res://.godot/imported/box2.png-b66e1e23c697e96d32ffb99c65c7a27d.s3tc.ctex"
+path.s3tc="res://.godot/imported/box2.png-4c0cc8d16c325c7215c0c482bf71b5ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/fps/textures/box2.png"
-dest_files=["res://.godot/imported/box2.png-b66e1e23c697e96d32ffb99c65c7a27d.s3tc.ctex"]
+source_file="res://fps/textures/box2.png"
+dest_files=["res://.godot/imported/box2.png-4c0cc8d16c325c7215c0c482bf71b5ff.s3tc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://barvr7scdh65u"
-path="res://.godot/imported/stone_hammer.svg-ef3d160801d7cd08d6153ce1d846504f.ctex"
+path="res://.godot/imported/stone_hammer.svg-4715a49abdcfb16357b7bbf081ce21c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/icons/stone_hammer.svg"
-dest_files=["res://.godot/imported/stone_hammer.svg-ef3d160801d7cd08d6153ce1d846504f.ctex"]
+source_file="res://assets/icons/stone_hammer.svg"
+dest_files=["res://.godot/imported/stone_hammer.svg-4715a49abdcfb16357b7bbf081ce21c6.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dushsiymhgtib"
-path="res://.godot/imported/workbench.glb-1d3dc36c2a433099932bc1d0c32d9d53.scn"
+path="res://.godot/imported/workbench.glb-c5aebbfdf1eea2d532ba1210f63479bf.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/workbench.glb"
-dest_files=["res://.godot/imported/workbench.glb-1d3dc36c2a433099932bc1d0c32d9d53.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/workbench.glb"
+dest_files=["res://.godot/imported/workbench.glb-c5aebbfdf1eea2d532ba1210f63479bf.scn"]
 
 [params]
 

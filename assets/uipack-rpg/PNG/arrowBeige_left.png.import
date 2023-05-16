@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvqaprk3kuksk"
-path="res://.godot/imported/arrowBeige_left.png-d36e3e7f860479e8ed2d037b20bf6c2b.ctex"
+path="res://.godot/imported/arrowBeige_left.png-adb8c66000ed43d2e158f8154d0802b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/arrowBeige_left.png"
-dest_files=["res://.godot/imported/arrowBeige_left.png-d36e3e7f860479e8ed2d037b20bf6c2b.ctex"]
+source_file="res://assets/uipack-rpg/PNG/arrowBeige_left.png"
+dest_files=["res://.godot/imported/arrowBeige_left.png-adb8c66000ed43d2e158f8154d0802b7.ctex"]
 
 [params]
 

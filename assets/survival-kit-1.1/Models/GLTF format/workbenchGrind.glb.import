@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ds8coutyid33j"
-path="res://.godot/imported/workbenchGrind.glb-530384e4e97275b118636354000dded6.scn"
+path="res://.godot/imported/workbenchGrind.glb-ae1459816a865a0f1415a7d4ed90520c.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/workbenchGrind.glb"
-dest_files=["res://.godot/imported/workbenchGrind.glb-530384e4e97275b118636354000dded6.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/workbenchGrind.glb"
+dest_files=["res://.godot/imported/workbenchGrind.glb-ae1459816a865a0f1415a7d4ed90520c.scn"]
 
 [params]
 

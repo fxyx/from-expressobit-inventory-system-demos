@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://t1lymqj7kq71"
-path="res://.godot/imported/toolShovel.glb-528b5091d2bcba2085fda738b9b3393c.scn"
+path="res://.godot/imported/toolShovel.glb-c4c1b57c8704818f0953f357523d3583.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/toolShovel.glb"
-dest_files=["res://.godot/imported/toolShovel.glb-528b5091d2bcba2085fda738b9b3393c.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/toolShovel.glb"
+dest_files=["res://.godot/imported/toolShovel.glb-c4c1b57c8704818f0953f357523d3583.scn"]
 
 [params]
 

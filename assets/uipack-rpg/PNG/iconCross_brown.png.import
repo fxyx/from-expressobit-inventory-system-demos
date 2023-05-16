@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj2dnhj4hf4p3"
-path="res://.godot/imported/iconCross_brown.png-77484fc64e1dc88a86e85c04d6b30cae.ctex"
+path="res://.godot/imported/iconCross_brown.png-bec618bcdf1463b21639e9b14ce105f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/iconCross_brown.png"
-dest_files=["res://.godot/imported/iconCross_brown.png-77484fc64e1dc88a86e85c04d6b30cae.ctex"]
+source_file="res://assets/uipack-rpg/PNG/iconCross_brown.png"
+dest_files=["res://.godot/imported/iconCross_brown.png-bec618bcdf1463b21639e9b14ce105f9.ctex"]
 
 [params]
 

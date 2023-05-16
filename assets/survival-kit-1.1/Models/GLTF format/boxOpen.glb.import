@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://1e0sia1epsfi"
-path="res://.godot/imported/boxOpen.glb-79bf71d2f7f81c13044eb349415d6dbb.scn"
+path="res://.godot/imported/boxOpen.glb-543d82c1318faea0a6782c825756a9b5.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/boxOpen.glb"
-dest_files=["res://.godot/imported/boxOpen.glb-79bf71d2f7f81c13044eb349415d6dbb.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/boxOpen.glb"
+dest_files=["res://.godot/imported/boxOpen.glb-543d82c1318faea0a6782c825756a9b5.scn"]
 
 [params]
 

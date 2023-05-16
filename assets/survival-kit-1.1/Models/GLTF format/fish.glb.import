@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c5v4soomi3jvw"
-path="res://.godot/imported/fish.glb-120f1faa257c1b99b04255438a7be67f.scn"
+path="res://.godot/imported/fish.glb-8aeb5001aa691b49b9f5301137aadad8.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/fish.glb"
-dest_files=["res://.godot/imported/fish.glb-120f1faa257c1b99b04255438a7be67f.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/fish.glb"
+dest_files=["res://.godot/imported/fish.glb-8aeb5001aa691b49b9f5301137aadad8.scn"]
 
 [params]
 

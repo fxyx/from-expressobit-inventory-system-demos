@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfv0ifjauytpc"
-path="res://.godot/imported/tent.glb-c76485b5e7b8dcbce7ca5e28d3891ab8.scn"
+path="res://.godot/imported/tent.glb-c97a3a94ef9ac56a471c11f0b09d099e.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/tent.glb"
-dest_files=["res://.godot/imported/tent.glb-c76485b5e7b8dcbce7ca5e28d3891ab8.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/tent.glb"
+dest_files=["res://.godot/imported/tent.glb-c97a3a94ef9ac56a471c11f0b09d099e.scn"]
 
 [params]
 

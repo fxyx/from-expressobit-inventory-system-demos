@@ -1,7 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://2i8022umv4df"]
+[gd_scene load_steps=15 format=3]
 
-[ext_resource type="PackedScene" uid="uid://drlbvaoe1uko4" path="res://addons/inventory-system/demos/fps/player.tscn" id="1_gogru"]
-[ext_resource type="Script" path="res://addons/inventory-system/demos/mp/mp_player.gd" id="2_j20bs"]
+[ext_resource type="PackedScene" path="res://fps/player.tscn" id="1_gogru"]
+[ext_resource type="Script" path="res://mp/mp_player.gd" id="2_j20bs"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/hand_item_3d.gd" id="3_fspyq"]
 [ext_resource type="Script" path="res://addons/inventory-system/multiplayer/networked_handler.gd" id="3_xjjoy"]
 [ext_resource type="Script" path="res://addons/inventory-system/multiplayer/networked_inventory.gd" id="4_ggduv"]

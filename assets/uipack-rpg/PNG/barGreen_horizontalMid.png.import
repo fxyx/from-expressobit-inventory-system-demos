@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k5bhgfu0y3qc"
-path="res://.godot/imported/barGreen_horizontalMid.png-fc916430adab5eb7dc5613b4222d3c00.ctex"
+path="res://.godot/imported/barGreen_horizontalMid.png-32544cd91812261887e75bc9485b8644.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/barGreen_horizontalMid.png"
-dest_files=["res://.godot/imported/barGreen_horizontalMid.png-fc916430adab5eb7dc5613b4222d3c00.ctex"]
+source_file="res://assets/uipack-rpg/PNG/barGreen_horizontalMid.png"
+dest_files=["res://.godot/imported/barGreen_horizontalMid.png-32544cd91812261887e75bc9485b8644.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ck5n7wn1s1f7a"
-path="res://.godot/imported/rockA.glb-d190cde0c67a0f53211576ede428ee20.scn"
+path="res://.godot/imported/rockA.glb-9e76c3c8c64719a36b7d1065cdf1facc.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/rockA.glb"
-dest_files=["res://.godot/imported/rockA.glb-d190cde0c67a0f53211576ede428ee20.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/rockA.glb"
+dest_files=["res://.godot/imported/rockA.glb-9e76c3c8c64719a36b7d1065cdf1facc.scn"]
 
 [params]
 

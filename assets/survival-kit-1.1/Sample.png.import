@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkl43eafpcngy"
-path="res://.godot/imported/Sample.png-6551742ca0997b1ad1a9c76c4538f17a.ctex"
+path="res://.godot/imported/Sample.png-7d4b56533172afd0b3b37f67bd8ef92d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Sample.png"
-dest_files=["res://.godot/imported/Sample.png-6551742ca0997b1ad1a9c76c4538f17a.ctex"]
+source_file="res://assets/survival-kit-1.1/Sample.png"
+dest_files=["res://.godot/imported/Sample.png-7d4b56533172afd0b3b37f67bd8ef92d.ctex"]
 
 [params]
 

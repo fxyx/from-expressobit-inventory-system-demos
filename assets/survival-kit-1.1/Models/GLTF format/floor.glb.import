@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c36nwrcrhhejc"
-path="res://.godot/imported/floor.glb-476ab983b516b6266f1c055ca1a83862.scn"
+path="res://.godot/imported/floor.glb-a8a14a455f0dc010ee9a422f3f93efeb.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/floor.glb"
-dest_files=["res://.godot/imported/floor.glb-476ab983b516b6266f1c055ca1a83862.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/floor.glb"
+dest_files=["res://.godot/imported/floor.glb-a8a14a455f0dc010ee9a422f3f93efeb.scn"]
 
 [params]
 

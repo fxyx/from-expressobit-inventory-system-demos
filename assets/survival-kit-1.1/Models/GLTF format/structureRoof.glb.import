@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmrpnobviaxyp"
-path="res://.godot/imported/structureRoof.glb-62774fe788053337befc8841e7941304.scn"
+path="res://.godot/imported/structureRoof.glb-01ae004e8f88bbc5617d83ad97922e6d.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/structureRoof.glb"
-dest_files=["res://.godot/imported/structureRoof.glb-62774fe788053337befc8841e7941304.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/structureRoof.glb"
+dest_files=["res://.godot/imported/structureRoof.glb-01ae004e8f88bbc5617d83ad97922e6d.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c455deyl4m1if"
-path="res://.godot/imported/workbench.svg-1f7697fd915b0189fed08f58acf4ca7d.ctex"
+path="res://.godot/imported/workbench.svg-a22e1e2ff540ec9ff331bfefc8b625b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/icons/workbench.svg"
-dest_files=["res://.godot/imported/workbench.svg-1f7697fd915b0189fed08f58acf4ca7d.ctex"]
+source_file="res://assets/icons/workbench.svg"
+dest_files=["res://.godot/imported/workbench.svg-a22e1e2ff540ec9ff331bfefc8b625b1.ctex"]
 
 [params]
 

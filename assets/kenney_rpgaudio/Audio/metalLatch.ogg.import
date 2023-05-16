@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bib0187htht0m"
-path="res://.godot/imported/metalLatch.ogg-c459d1a62bdb325bd92bfb388dead982.oggvorbisstr"
+path="res://.godot/imported/metalLatch.ogg-e70b918baa4b18db741fb2c4c90bf4f0.oggvorbisstr"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/kenney_rpgaudio/Audio/metalLatch.ogg"
-dest_files=["res://.godot/imported/metalLatch.ogg-c459d1a62bdb325bd92bfb388dead982.oggvorbisstr"]
+source_file="res://assets/kenney_rpgaudio/Audio/metalLatch.ogg"
+dest_files=["res://.godot/imported/metalLatch.ogg-e70b918baa4b18db741fb2c4c90bf4f0.oggvorbisstr"]
 
 [params]
 

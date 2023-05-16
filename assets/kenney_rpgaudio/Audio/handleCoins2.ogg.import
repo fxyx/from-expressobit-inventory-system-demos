@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://nfetkvo1v4gi"
-path="res://.godot/imported/handleCoins2.ogg-1c10f95f6eaed3d82e47f38071027e73.oggvorbisstr"
+path="res://.godot/imported/handleCoins2.ogg-a281e0228e52ce269cbc1f22eb840af3.oggvorbisstr"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/kenney_rpgaudio/Audio/handleCoins2.ogg"
-dest_files=["res://.godot/imported/handleCoins2.ogg-1c10f95f6eaed3d82e47f38071027e73.oggvorbisstr"]
+source_file="res://assets/kenney_rpgaudio/Audio/handleCoins2.ogg"
+dest_files=["res://.godot/imported/handleCoins2.ogg-a281e0228e52ce269cbc1f22eb840af3.oggvorbisstr"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cusvig7f5ojr2"
-path.s3tc="res://.godot/imported/medievalEnvironment_01.png-16f506d9931f905859ac2020a68087c4.s3tc.ctex"
+path.s3tc="res://.godot/imported/medievalEnvironment_01.png-1faca29632f49c6a4c005312e62fb380.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/kenney_medievalrtspack/PNG/Default size/Environment/medievalEnvironment_01.png"
-dest_files=["res://.godot/imported/medievalEnvironment_01.png-16f506d9931f905859ac2020a68087c4.s3tc.ctex"]
+source_file="res://assets/kenney_medievalrtspack/PNG/Default size/Environment/medievalEnvironment_01.png"
+dest_files=["res://.godot/imported/medievalEnvironment_01.png-1faca29632f49c6a4c005312e62fb380.s3tc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx37volwhmunf"
-path="res://.godot/imported/cursorGauntlet_grey.png-0f05e3366fe1bf74bad6bc5ceb831b83.ctex"
+path="res://.godot/imported/cursorGauntlet_grey.png-487052c9fced1a60f3e9b5965c14e1fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/cursorGauntlet_grey.png"
-dest_files=["res://.godot/imported/cursorGauntlet_grey.png-0f05e3366fe1bf74bad6bc5ceb831b83.ctex"]
+source_file="res://assets/uipack-rpg/PNG/cursorGauntlet_grey.png"
+dest_files=["res://.godot/imported/cursorGauntlet_grey.png-487052c9fced1a60f3e9b5965c14e1fe.ctex"]
 
 [params]
 

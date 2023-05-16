@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b8ywaf20jfyqk"
-path="res://.godot/imported/bedrollFrame.glb-619c8934e8d101b5ce1c7cc2de5dccf2.scn"
+path="res://.godot/imported/bedrollFrame.glb-d50b2d5f728a8659ae499e45f07a5d7e.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/bedrollFrame.glb"
-dest_files=["res://.godot/imported/bedrollFrame.glb-619c8934e8d101b5ce1c7cc2de5dccf2.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/bedrollFrame.glb"
+dest_files=["res://.godot/imported/bedrollFrame.glb-d50b2d5f728a8659ae499e45f07a5d7e.scn"]
 
 [params]
 

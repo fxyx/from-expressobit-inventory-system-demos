@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://w0fu4w2matr7"
-path="res://.godot/imported/chest.glb-0c59d66de6c76fbb18731e2f4109dd8a.scn"
+path="res://.godot/imported/chest.glb-598ab2ff4cbc1f57977503c33ce26be3.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/chest.glb"
-dest_files=["res://.godot/imported/chest.glb-0c59d66de6c76fbb18731e2f4109dd8a.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/chest.glb"
+dest_files=["res://.godot/imported/chest.glb-598ab2ff4cbc1f57977503c33ce26be3.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfu6lv1sl03vu"
-path="res://.godot/imported/fenceFortified.glb-9f9422321d2ea6d330c6732f0fa819a6.scn"
+path="res://.godot/imported/fenceFortified.glb-c51af41bd147edc16fa3635fda27a8d1.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/fenceFortified.glb"
-dest_files=["res://.godot/imported/fenceFortified.glb-9f9422321d2ea6d330c6732f0fa819a6.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/fenceFortified.glb"
+dest_files=["res://.godot/imported/fenceFortified.glb-c51af41bd147edc16fa3635fda27a8d1.scn"]
 
 [params]
 

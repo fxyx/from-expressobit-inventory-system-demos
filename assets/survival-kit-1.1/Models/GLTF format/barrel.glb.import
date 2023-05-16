@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bbo8oih1lkcfo"
-path="res://.godot/imported/barrel.glb-f26500f720faf65682eec22f7a23e18f.scn"
+path="res://.godot/imported/barrel.glb-0cb2e6d1a64cf8f9101d907252da9f0c.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/barrel.glb"
-dest_files=["res://.godot/imported/barrel.glb-f26500f720faf65682eec22f7a23e18f.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/barrel.glb"
+dest_files=["res://.godot/imported/barrel.glb-0cb2e6d1a64cf8f9101d907252da9f0c.scn"]
 
 [params]
 

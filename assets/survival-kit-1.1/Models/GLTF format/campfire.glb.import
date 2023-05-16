@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmewr3e0dn71h"
-path="res://.godot/imported/campfire.glb-84f6102856d0a9dfe9f3b639c4a0b4a2.scn"
+path="res://.godot/imported/campfire.glb-d2f47b62f49d6fa1bcdc3df7b947d436.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/campfire.glb"
-dest_files=["res://.godot/imported/campfire.glb-84f6102856d0a9dfe9f3b639c4a0b4a2.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/campfire.glb"
+dest_files=["res://.godot/imported/campfire.glb-d2f47b62f49d6fa1bcdc3df7b947d436.scn"]
 
 [params]
 

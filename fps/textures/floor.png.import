@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://discpklvil8rd"
-path="res://.godot/imported/floor.png-880229240f37214e0bcf75aabb64ef29.ctex"
+path="res://.godot/imported/floor.png-2c8bd47b52662bd2f1c6214dc88003ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/fps/textures/floor.png"
-dest_files=["res://.godot/imported/floor.png-880229240f37214e0bcf75aabb64ef29.ctex"]
+source_file="res://fps/textures/floor.png"
+dest_files=["res://.godot/imported/floor.png-2c8bd47b52662bd2f1c6214dc88003ca.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c638anyrnpd76"
-path="res://.godot/imported/fishingStand.glb-15f9bd6335c3d7ca3cb2452a6a59d6fd.scn"
+path="res://.godot/imported/fishingStand.glb-24f1cd8f29ce984457858f39bd2f2e08.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/fishingStand.glb"
-dest_files=["res://.godot/imported/fishingStand.glb-15f9bd6335c3d7ca3cb2452a6a59d6fd.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/fishingStand.glb"
+dest_files=["res://.godot/imported/fishingStand.glb-24f1cd8f29ce984457858f39bd2f2e08.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c45be0p8k05oh"
-path="res://.godot/imported/tentHalf.glb-ea0248e98e4c2518b1307a454f337612.scn"
+path="res://.godot/imported/tentHalf.glb-c2f2abe0b7f82f43c01283452c447af6.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/tentHalf.glb"
-dest_files=["res://.godot/imported/tentHalf.glb-ea0248e98e4c2518b1307a454f337612.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/tentHalf.glb"
+dest_files=["res://.godot/imported/tentHalf.glb-c2f2abe0b7f82f43c01283452c447af6.scn"]
 
 [params]
 

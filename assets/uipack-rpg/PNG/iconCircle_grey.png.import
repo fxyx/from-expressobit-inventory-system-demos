@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdg0eidytvbts"
-path="res://.godot/imported/iconCircle_grey.png-425a5f9a39a983725fa4d3f5a0ce9549.ctex"
+path="res://.godot/imported/iconCircle_grey.png-aa6d515aa92a62da2ea28a40790f4ef9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/iconCircle_grey.png"
-dest_files=["res://.godot/imported/iconCircle_grey.png-425a5f9a39a983725fa4d3f5a0ce9549.ctex"]
+source_file="res://assets/uipack-rpg/PNG/iconCircle_grey.png"
+dest_files=["res://.godot/imported/iconCircle_grey.png-aa6d515aa92a62da2ea28a40790f4ef9.ctex"]
 
 [params]
 

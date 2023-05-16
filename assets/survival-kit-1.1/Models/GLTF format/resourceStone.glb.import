@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c16vhlb80bs1u"
-path="res://.godot/imported/resourceStone.glb-b618915cb8b943b87ec1238c7b9ad99b.scn"
+path="res://.godot/imported/resourceStone.glb-fda17847e35b7d9dc94fede854998c33.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/resourceStone.glb"
-dest_files=["res://.godot/imported/resourceStone.glb-b618915cb8b943b87ec1238c7b9ad99b.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/resourceStone.glb"
+dest_files=["res://.godot/imported/resourceStone.glb-fda17847e35b7d9dc94fede854998c33.scn"]
 
 [params]
 

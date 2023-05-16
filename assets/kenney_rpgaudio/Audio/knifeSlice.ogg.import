@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cil6hwoxa0ove"
-path="res://.godot/imported/knifeSlice.ogg-205fb864bdf839078240d0bdac29968f.oggvorbisstr"
+path="res://.godot/imported/knifeSlice.ogg-ea640ed0f16f20457a034523945d0c05.oggvorbisstr"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/kenney_rpgaudio/Audio/knifeSlice.ogg"
-dest_files=["res://.godot/imported/knifeSlice.ogg-205fb864bdf839078240d0bdac29968f.oggvorbisstr"]
+source_file="res://assets/kenney_rpgaudio/Audio/knifeSlice.ogg"
+dest_files=["res://.godot/imported/knifeSlice.ogg-ea640ed0f16f20457a034523945d0c05.oggvorbisstr"]
 
 [params]
 

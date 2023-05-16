@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctr82bvxsayua"
-path="res://.godot/imported/treeFall.glb-47aa1f8ae91515a01be4835aa9b82ba8.scn"
+path="res://.godot/imported/treeFall.glb-7e228ac21764c84dda9de55feea15834.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/treeFall.glb"
-dest_files=["res://.godot/imported/treeFall.glb-47aa1f8ae91515a01be4835aa9b82ba8.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/treeFall.glb"
+dest_files=["res://.godot/imported/treeFall.glb-7e228ac21764c84dda9de55feea15834.scn"]
 
 [params]
 

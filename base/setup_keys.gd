@@ -1,7 +1,7 @@
 @tool
 extends Node
 
-const DefaultActions = preload("res://addons/inventory-system/demos/base/default_actions.gd")
+const DefaultActions = preload("res://base/default_actions.gd")
 
 const ACTIONS = [
 	DefaultActions.CHARACTER_CONTROLLER_FORWARD,

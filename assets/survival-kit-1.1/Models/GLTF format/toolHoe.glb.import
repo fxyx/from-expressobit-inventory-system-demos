@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bk11hgoi46quu"
-path="res://.godot/imported/toolHoe.glb-8de88258d306c90de06e0a7396368e2e.scn"
+path="res://.godot/imported/toolHoe.glb-62be857819d3064228ae628539c1a418.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/toolHoe.glb"
-dest_files=["res://.godot/imported/toolHoe.glb-8de88258d306c90de06e0a7396368e2e.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/toolHoe.glb"
+dest_files=["res://.godot/imported/toolHoe.glb-62be857819d3064228ae628539c1a418.scn"]
 
 [params]
 

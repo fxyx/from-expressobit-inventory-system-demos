@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://2lv3lwkrjfn4"
-path="res://.godot/imported/grass.glb-8ea5b6de21d626493ee3a6a5fb39a804.scn"
+path="res://.godot/imported/grass.glb-3cd9c6af815a1628a7b5817cbee414f0.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/grass.glb"
-dest_files=["res://.godot/imported/grass.glb-8ea5b6de21d626493ee3a6a5fb39a804.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/grass.glb"
+dest_files=["res://.godot/imported/grass.glb-3cd9c6af815a1628a7b5817cbee414f0.scn"]
 
 [params]
 

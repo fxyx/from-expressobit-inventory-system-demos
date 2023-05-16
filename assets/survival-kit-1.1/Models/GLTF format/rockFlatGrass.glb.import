@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://duygoc0hlrmw1"
-path="res://.godot/imported/rockFlatGrass.glb-f1c6b022ff1ac0f5675be18bccb43b87.scn"
+path="res://.godot/imported/rockFlatGrass.glb-5b636bb4d1cf498290f2bba31635d4a0.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/rockFlatGrass.glb"
-dest_files=["res://.godot/imported/rockFlatGrass.glb-f1c6b022ff1ac0f5675be18bccb43b87.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/rockFlatGrass.glb"
+dest_files=["res://.godot/imported/rockFlatGrass.glb-5b636bb4d1cf498290f2bba31635d4a0.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cna1setdjbwy6"
-path="res://.godot/imported/panel_blue.png-5da230d7022d58a8ea863bbe2a784b36.ctex"
+path="res://.godot/imported/panel_blue.png-fecd2519678ae6bcf1748ea9f37303eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/uipack-rpg/PNG/panel_blue.png"
-dest_files=["res://.godot/imported/panel_blue.png-5da230d7022d58a8ea863bbe2a784b36.ctex"]
+source_file="res://assets/uipack-rpg/PNG/panel_blue.png"
+dest_files=["res://.godot/imported/panel_blue.png-fecd2519678ae6bcf1748ea9f37303eb.ctex"]
 
 [params]
 

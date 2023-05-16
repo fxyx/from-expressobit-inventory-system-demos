@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dd4p8bydodqwr"
-path="res://.godot/imported/resourceWood.glb-735936460afd11ebde16d5578c6d2385.scn"
+path="res://.godot/imported/resourceWood.glb-c57fd10970e9f869739504a4d819e6ce.scn"
 
 [deps]
 
-source_file="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/resourceWood.glb"
-dest_files=["res://.godot/imported/resourceWood.glb-735936460afd11ebde16d5578c6d2385.scn"]
+source_file="res://assets/survival-kit-1.1/Models/GLTF format/resourceWood.glb"
+dest_files=["res://.godot/imported/resourceWood.glb-c57fd10970e9f869739504a4d819e6ce.scn"]
 
 [params]
 
