@@ -29,7 +29,7 @@
      showgrid="true"
      showguides="true"
      inkscape:zoom="32.816738"
-     inkscape:cx="7.9075501"
+     inkscape:cx="20.264049"
      inkscape:cy="10.771942"
      inkscape:window-width="2560"
      inkscape:window-height="1001"
@@ -146,5 +146,16 @@
        inkscape:transform-center-y="0.23675043"
        ry="4.2205812e-08"
        rx="6.3308718e-08" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.705556px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583;stroke-linecap:round"
+       x="1.3873398"
+       y="3.9632378"
+       id="text320"><tspan
+         sodipodi:role="line"
+         id="tspan318"
+         x="1.3873398"
+         y="3.9632378"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.705556px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583">DEMOS</tspan></text>
   </g>
 </svg>
