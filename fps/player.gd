@@ -44,7 +44,7 @@ func _physics_process(delta):
 	
 	interact()
 	
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_released("toggle_inventory"):
 		if inventory_handler.is_open_main_inventory():
 			inventory_handler.close_main_inventory()
@@ -141,15 +141,15 @@ func open_station(craft_station : CraftStation):
 		crafter.open(craft_station)
 
 
-func pickup_item(item : DroppedItem3D):
+func pickup_item(_item : DroppedItem3D):
 	pass
 
 
-func _on_inventory_handler_picked(dropped_item):
+func _on_inventory_handler_picked(_dropped_item):
 	$Pickup.play()
 
 
-func _on_inventory_handler_dropped(dropped_item):
+func _on_inventory_handler_dropped(_dropped_item):
 	$Drop.play()
 	
 

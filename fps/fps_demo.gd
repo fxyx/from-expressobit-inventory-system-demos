@@ -36,7 +36,7 @@ func setup_crafter(crafter : Crafter):
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_released("add_item_a"):
 		player_inventory_handler.add_to_inventory(player_inventory_handler.inventory, item_wood, 1)
 	if Input.is_action_just_released("remove_item_a"):
@@ -53,14 +53,14 @@ func _process(delta):
 		player_inventory_handler.inventory.remove(item_grass, 1)
 
 
-func _update_opened_inventories(inventory : Inventory):
+func _update_opened_inventories(_inventory : Inventory):
 	if player_inventory_handler.is_open_main_inventory():
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	else:
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 
-func _update_opened_stations(craft_station : CraftStation):
+func _update_opened_stations(_craft_station : CraftStation):
 	if player_crafter.is_open_any_station():
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	else:

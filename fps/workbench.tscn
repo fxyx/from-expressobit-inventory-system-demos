@@ -1,10 +1,10 @@
-[gd_scene load_steps=8 format=3]
+[gd_scene load_steps=8 format=3 uid="uid://bvjagvllelgcf"]
 
 [ext_resource type="Script" path="res://fps/workbench.gd" id="1_sr5uf"]
 [ext_resource type="PackedScene" uid="uid://dushsiymhgtib" path="res://assets/survival-kit-1.1/Models/GLTF format/workbench.glb" id="2_2rlru"]
 [ext_resource type="Script" path="res://addons/inventory-system/craft/craft-station.gd" id="3_i83tc"]
-[ext_resource type="Resource" uid="uid://dwrj6geetlyfd" path="res://base/craft-stations/workbench.tres" id="4_g10kw"]
-[ext_resource type="Resource" path="res://base/database.tres" id="5_d4au8"]
+[ext_resource type="Resource" path="res://base/craft-stations/workbench.tres" id="4_g10kw"]
+[ext_resource type="Resource" uid="uid://x5huasdaljjl" path="res://base/database.tres" id="5_d4au8"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory.gd" id="6_js2dm"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_v5tyu"]
