@@ -1,0 +1,108 @@
+[gd_scene load_steps=22 format=3 uid="uid://1nbja4k0pjv"]
+
+[ext_resource type="Script" path="res://addons/inventory-system/demos/fps/placeable/campfire.gd" id="1_pdbvy"]
+[ext_resource type="PackedScene" uid="uid://bmewr3e0dn71h" path="res://addons/inventory-system/demos/assets/survival-kit-1.1/Models/GLTF format/campfire.glb" id="2_eww0k"]
+[ext_resource type="Resource" uid="uid://d0ujb6iguxer0" path="res://addons/inventory-system/demos/base/items/wood.tres" id="2_wuhy5"]
+[ext_resource type="Script" path="res://addons/inventory-system/craft/craft-station.gd" id="3_wvkpn"]
+[ext_resource type="Resource" uid="uid://b2u42eqmp8q" path="res://addons/inventory-system/demos/base/craft-stations/campfire.tres" id="4_bov00"]
+[ext_resource type="Resource" uid="uid://3y503wpj14ir" path="res://addons/inventory-system/demos/base/database.tres" id="5_72vu1"]
+[ext_resource type="Script" path="res://addons/inventory-system/core/inventory.gd" id="6_1ngfx"]
+[ext_resource type="Resource" uid="uid://clxebv8xigpno" path="res://addons/inventory-system/demos/base/categories/burnables.tres" id="8_81xo0"]
+[ext_resource type="Script" path="res://addons/inventory-system/core/slot.gd" id="9_fbwwc"]
+[ext_resource type="Resource" uid="uid://dnuogji8u6ont" path="res://addons/inventory-system/demos/base/categories/food.tres" id="10_3i6mn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v5tyu"]
+size = Vector3(1.20602, 1.16811, 1.2693)
+
+[sub_resource type="Resource" id="Resource_dwc0d"]
+script = ExtResource("9_fbwwc")
+amount = 0
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("8_81xo0")])
+
+[sub_resource type="Resource" id="Resource_xqhmu"]
+script = ExtResource("9_fbwwc")
+amount = 0
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_3i6mn")])
+
+[sub_resource type="Resource" id="Resource_e7inh"]
+script = ExtResource("9_fbwwc")
+amount = 0
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_3i6mn")])
+
+[sub_resource type="Resource" id="Resource_612oe"]
+script = ExtResource("9_fbwwc")
+amount = 0
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_3i6mn")])
+
+[sub_resource type="Curve" id="Curve_gbe35"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_dbr8k"]
+curve = SubResource("Curve_gbe35")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_uboi2"]
+direction = Vector3(0, 1, 0)
+spread = 30.38
+flatness = 0.22
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 1.0
+initial_velocity_max = 1.0
+scale_curve = SubResource("CurveTexture_dbr8k")
+color = Color(1, 1, 0.117647, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4jrli"]
+shading_mode = 0
+albedo_color = Color(1, 1, 0.0705882, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_a22dj"]
+material = SubResource("StandardMaterial3D_4jrli")
+size = Vector3(0.25, 0.25, 0.25)
+
+[sub_resource type="Skin" id="Skin_2ffj2"]
+
+[node name="Campfire" type="StaticBody3D"]
+transform = Transform3D(0.999612, 0, -0.0278519, 0, 1, 0, 0.0278519, 0, 0.999612, -1.74824, -2.38419e-07, -4.02722)
+collision_layer = 18
+collision_mask = 3
+script = ExtResource("1_pdbvy")
+wood_item = ExtResource("2_wuhy5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.249215, 0)
+shape = SubResource("BoxShape3D_v5tyu")
+
+[node name="campfire" parent="." instance=ExtResource("2_eww0k")]
+transform = Transform3D(5, 0, 4.76837e-07, 0, 5, 0, -4.76837e-07, 0, 5, 0, 0, 0)
+
+[node name="CraftStation" type="Node" parent="." node_paths=PackedStringArray("input_inventory", "output_inventory")]
+script = ExtResource("3_wvkpn")
+input_inventory = NodePath("../InputInventory")
+output_inventory = NodePath("../InputInventory")
+type = ExtResource("4_bov00")
+database = ExtResource("5_72vu1")
+
+[node name="InputInventory" type="Node" parent="."]
+script = ExtResource("6_1ngfx")
+slots = Array[ExtResource("9_fbwwc")]([SubResource("Resource_dwc0d"), SubResource("Resource_xqhmu"), SubResource("Resource_e7inh"), SubResource("Resource_612oe")])
+slot_amount = 4
+recreate_slots_on_ready = false
+database = ExtResource("5_72vu1")
+
+[node name="Node" type="Node3D" parent="."]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="Node"]
+amount = 32
+process_material = SubResource("ParticleProcessMaterial_uboi2")
+draw_pass_1 = SubResource("BoxMesh_a22dj")
+draw_skin = SubResource("Skin_2ffj2")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node"]
+light_color = Color(1, 1, 0.0901961, 1)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Node"]
+
+[connection signal="crafting_added" from="CraftStation" to="." method="_on_craft_station_crafting_added"]
+[connection signal="crafting_removed" from="CraftStation" to="." method="_on_craft_station_crafting_removed"]
+[connection signal="item_added" from="InputInventory" to="." method="_on_input_inventory_item_added"]
+[connection signal="item_removed" from="InputInventory" to="." method="_on_input_inventory_item_removed"]

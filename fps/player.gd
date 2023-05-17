@@ -44,7 +44,7 @@ func _physics_process(delta):
 	
 	interact()
 	
-func _process(_delta):
+func _process(delta):
 	if Input.is_action_just_released("toggle_inventory"):
 		if inventory_handler.is_open_main_inventory():
 			inventory_handler.close_main_inventory()
@@ -100,7 +100,8 @@ func rotate_camera(mouse_axis : Vector2) -> void:
 func interact():
 	if raycast.is_colliding():
 		var object = raycast.get_collider()
-		var box := object as BoxInventory
+		var node = object as Node
+		var box := node as BoxInventory
 		if box != null:
 			var inv = box.get_inventory()
 			if inv != null:
@@ -109,7 +110,16 @@ func interact():
 				if Input.is_action_just_pressed("interact"):
 					open_inventory(inv)
 				return
-		var workbench := object as Workbench
+		var campfire := node as Campfire
+		if campfire != null:
+			var station = campfire.get_station()
+			if station != null:
+				$"../UI/Labels/InteractMessage".visible = !crafter.is_open(station)
+				$"../UI/Labels/InteractMessage".text = "E to Open Station"
+				if Input.is_action_just_pressed("interact"):
+					open_inventory(station.input_inventory)
+				return
+		var workbench := node as Workbench
 		if workbench != null:
 			var station = workbench.get_station()
 			if station != null:
@@ -118,7 +128,7 @@ func interact():
 				if Input.is_action_just_pressed("interact"):
 					open_station(station)
 				return
-		var dropped_item := object as DroppedItem3D
+		var dropped_item := node as DroppedItem3D
 		if dropped_item != null:
 			if dropped_item.is_pickable:
 				$"../UI/Labels/InteractMessage".visible = true
@@ -126,8 +136,27 @@ func interact():
 				if Input.is_action_just_pressed("interact"):
 					inventory_handler.pick_to_inventory(dropped_item)
 			return
+		if node.is_in_group("placeable"):
+			if Input.is_action_just_pressed("interact_item"):
+				var item = hotbar.get_selected_item()
+				if item != null:
+					place_item(item, raycast.get_collision_point())
 	$"../UI/Labels/InteractMessage".visible = false
 
+func place_item(item : InventoryItem, position : Vector3):
+	# TODO Add Preview
+	if !item.properties.has("placeable"):
+		return
+	var path = item.properties["placeable"]
+	var res = load(path)
+	if res is PackedScene:
+		var scene = res as PackedScene
+		var obj = scene.instantiate()
+		obj.position = position 
+		get_node("..").add_child(obj)
+		print("place item ",item.name)
+		inventory_handler.inventory.remove(item)
+	
 
 func open_inventory(inventory : Inventory):
 	if not inventory_handler.is_open(inventory):
@@ -141,15 +170,15 @@ func open_station(craft_station : CraftStation):
 		crafter.open(craft_station)
 
 
-func pickup_item(_item : DroppedItem3D):
+func pickup_item(item : DroppedItem3D):
 	pass
 
 
-func _on_inventory_handler_picked(_dropped_item):
+func _on_inventory_handler_picked(dropped_item):
 	$Pickup.play()
 
 
-func _on_inventory_handler_dropped(_dropped_item):
+func _on_inventory_handler_dropped(dropped_item):
 	$Drop.play()
 	
 

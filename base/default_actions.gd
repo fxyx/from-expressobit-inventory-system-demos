@@ -122,3 +122,12 @@ const CHARACTER_CONTROLLER_REMOVE_ITEM_C := {
 		}
 	]
 }
+
+const CHARACTER_CONTROLLER_INTERACT_ITEM := {
+	"name": "interact_item",
+	"events": [
+		{
+			"physical_keycode": MOUSE_BUTTON_LEFT,
+		}
+	]
+}

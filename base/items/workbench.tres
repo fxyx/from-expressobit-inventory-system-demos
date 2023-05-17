@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://85ffsqwt3ore"]
 
 [ext_resource type="Texture2D" uid="uid://m42ga264uiky" path="res://assets/icons/workbench.png" id="1_bhcp7"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory_item.gd" id="1_dory1"]
