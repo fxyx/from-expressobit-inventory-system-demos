@@ -14,7 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://bvjagvllelgcf" path="res://fps/workbench.tscn" id="11_fkc5i"]
 [ext_resource type="Resource" path="res://base/categories/tool.tres" id="12_tehqe"]
 [ext_resource type="PackedScene" path="res://fps/player.tscn" id="14_kqlku"]
-[ext_resource type="PackedScene" path="res://fps/level.tscn" id="16_46jkf"]
+[ext_resource type="PackedScene" uid="uid://d2gketv1q2cph" path="res://fps/level.tscn" id="16_46jkf"]
 
 [sub_resource type="Resource" id="Resource_aaejx"]
 script = ExtResource("10_mvvba")
