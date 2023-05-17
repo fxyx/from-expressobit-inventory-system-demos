@@ -22,19 +22,19 @@ var max_seconds := 120.0
 func _ready():
 	$Node.visible = fuel > 0.0
 
-func _on_craft_station_crafting_added(crafting_index):
+func _on_craft_station_crafting_added(_crafting_index):
 	pass # Replace with function body.
 
 
-func _on_craft_station_crafting_removed(crafting_index):
+func _on_craft_station_crafting_removed(_crafting_index):
 	pass # Replace with function body.
 
 
-func _on_input_inventory_item_added(item, amount):
+func _on_input_inventory_item_added(_item, _amount):
 	check()
 
 
-func _on_input_inventory_item_removed(item, amount):
+func _on_input_inventory_item_removed(_item, _amount):
 	check()
 
 
