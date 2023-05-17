@@ -52,6 +52,18 @@ signal closed
 ## The type of this craftstation, this type defines which recipes can be created in that station
 @export var type : CraftStationType
 
+## Start crafting automatically if you have an item available.
+@export var auto_craft : bool:
+	set(new_value):
+		if auto_craft != new_value and input_inventory != null:
+			if new_value:
+				input_inventory.item_added.connect(_on_input_inventory_changed.bind())
+			else:
+				input_inventory.item_added.disconnect(_on_input_inventory_changed.bind())
+		auto_craft = new_value
+		_check_for_auto_crafts()
+
+
 ## Current active craftings in this station
 var craftings : Array[Crafting]
 
@@ -193,6 +205,20 @@ func _remove_crafting(crafting_index : int):
 		return
 	emit_signal("crafting_removed", crafting_index)
 	craftings.remove_at(crafting_index)
+
+
+func _on_input_inventory_changed(item : InventoryItem, amount : int):
+	_check_for_auto_crafts()
+
+
+func _check_for_auto_crafts():
+	if not auto_craft:
+		return
+	for i in valid_recipes:
+		var recipe = database.recipes[i]
+		if not can_craft(recipe):
+			continue
+		craft(i)
 
 
 ## Class that contain crafting information being processed.

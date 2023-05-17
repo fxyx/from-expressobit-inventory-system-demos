@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5xv2r7100c2d"]
+[gd_scene load_steps=2 format=3 uid="uid://cmbqms4kj2t3a"]
 
 [ext_resource type="Script" path="res://addons/inventory-system/editor/recipes/ingredient_item_in_recipe_item.gd" id="1_ggxbe"]
 
