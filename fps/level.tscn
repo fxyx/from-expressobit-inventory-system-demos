@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://d2gketv1q2cph"]
+[gd_scene load_steps=16 format=3 uid="uid://d2gketv1q2cph"]
 
 [ext_resource type="PackedScene" uid="uid://d5cxcn02uswu" path="res://fps/level/floor.tscn" id="1_onlp0"]
 [ext_resource type="PackedScene" uid="uid://c88tbne1ovnu" path="res://fps/wall.tscn" id="2_wrb2n"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" path="res://fps/level/sign.tscn" id="10_5mqut"]
 [ext_resource type="PackedScene" uid="uid://bpefq51seky2l" path="res://assets/survival-kit-1.1/Models/GLTF format/rockFlat.glb" id="11_61v31"]
 [ext_resource type="PackedScene" path="res://fps/dropped_items/grass.tscn" id="11_pyj8y"]
+[ext_resource type="PackedScene" uid="uid://crtl4j25smbw7" path="res://fps/dropped_items/raw_meat.tscn" id="12_nfdq3"]
 [ext_resource type="PackedScene" uid="uid://js44r8aslho6" path="res://fps/level/directional_light_3d.tscn" id="15_c7p16"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5c8y0"]
@@ -190,6 +191,27 @@ transform = Transform3D(0.246982, 0, -0.96902, 0, 1, 0, 0.96902, 0, 0.246982, 3.
 [node name="Label3D" parent="Sign3" index="0"]
 text = "Only Tools
 Inventory"
+
+[node name="RawMeat" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.64944, -1.19209e-07, 2.27026)
+
+[node name="RawMeat2" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
+
+[node name="RawMeat3" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="RawMeat4" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="RawMeat5" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1)
+
+[node name="RawMeat6" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+
+[node name="RawMeat7" parent="." instance=ExtResource("12_nfdq3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3)
 
 [editable path="Sign"]
 [editable path="Sign/signpostSingle"]

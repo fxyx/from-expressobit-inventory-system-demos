@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dl0mpo1bfpbw0"]
+[gd_scene load_steps=5 format=3 uid="uid://crtl4j25smbw7"]
 
-[ext_resource type="PackedScene" path="res://addons/inventory-system/demos/fps/dropped_items/dropped_item.tscn" id="1_0kt0w"]
-[ext_resource type="Resource" uid="uid://bbgkmechujp3u" path="res://addons/inventory-system/demos/base/items/raw_meat.tres" id="2_yjrja"]
-[ext_resource type="PackedScene" uid="uid://be7nc0y8hk716" path="res://addons/inventory-system/demos/assets/kenney_food-kit/Models/GLTF format/meatRaw.glb" id="3_d6j27"]
+[ext_resource type="PackedScene" path="res://fps/dropped_items/dropped_item.tscn" id="1_0kt0w"]
+[ext_resource type="Resource" uid="uid://c0pjgqkwob2ep" path="res://base/items/raw_meat.tres" id="2_yjrja"]
+[ext_resource type="PackedScene" uid="uid://be7nc0y8hk716" path="res://assets/kenney_food-kit/Models/GLTF format/meatRaw.glb" id="3_d6j27"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ffk2p"]
 size = Vector3(0.230849, 0.0370853, 0.22973)

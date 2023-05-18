@@ -13,7 +13,6 @@ var fuel := 0.0:
 		fuel = new_value
 		$Node.visible = fuel > 0.0
 		check()
-		print(fuel)
 #		gpu_particles_3d.amount = clamp(seconds, 1, 32)
 		craft_station.auto_craft = fuel > 0.0
 		craft_station.can_processing_craftings = fuel > 0.0
