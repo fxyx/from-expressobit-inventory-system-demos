@@ -7,7 +7,7 @@
 [ext_resource type="Resource" path="res://base/craft-stations/campfire.tres" id="4_bov00"]
 [ext_resource type="Resource" uid="uid://x5huasdaljjl" path="res://base/database.tres" id="5_72vu1"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory.gd" id="6_1ngfx"]
-[ext_resource type="Resource" path="res://base/categories/burnables.tres" id="8_81xo0"]
+[ext_resource type="Resource" uid="uid://041ut5vu78mt" path="res://base/categories/burnables.tres" id="8_81xo0"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/slot.gd" id="9_fbwwc"]
 [ext_resource type="Resource" uid="uid://vf4th6k6nu1k" path="res://base/categories/food.tres" id="10_3i6mn"]
 
@@ -102,7 +102,5 @@ light_color = Color(1, 1, 0.0901961, 1)
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Node"]
 
-[connection signal="crafting_added" from="CraftStation" to="." method="_on_craft_station_crafting_added"]
-[connection signal="crafting_removed" from="CraftStation" to="." method="_on_craft_station_crafting_removed"]
 [connection signal="item_added" from="InputInventory" to="." method="_on_input_inventory_item_added"]
 [connection signal="item_removed" from="InputInventory" to="." method="_on_input_inventory_item_removed"]

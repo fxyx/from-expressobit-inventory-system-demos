@@ -1,6 +1,8 @@
 extends Workbench
 class_name Campfire
 
+signal changed_burning_state(is_burning : bool)
+
 @onready var input_inventory : Inventory = $InputInventory
 @export var wood_item : InventoryItem
 @onready var gpu_particles_3d = $Node/GPUParticles3D
@@ -11,22 +13,27 @@ class_name Campfire
 var fuel := 0.0:
 	set(new_value):
 		fuel = new_value
-		$Node.visible = fuel > 0.0
-		check()
-#		gpu_particles_3d.amount = clamp(seconds, 1, 32)
-		craft_station.auto_craft = fuel > 0.0
-		craft_station.can_processing_craftings = fuel > 0.0
+		is_burning = fuel > 0.0
+		
 var max_seconds := 120.0
 
+var is_burning := false:
+	set(new_value):
+		if is_burning != new_value:
+			is_burning = new_value
+			check()
+			emit_signal("changed_burning_state",is_burning)
+			_update_is_burning()
+			
+
 func _ready():
-	$Node.visible = fuel > 0.0
+	_update_is_burning()
+	
 
-func _on_craft_station_crafting_added(_crafting_index):
-	pass # Replace with function body.
-
-
-func _on_craft_station_crafting_removed(_crafting_index):
-	pass # Replace with function body.
+func _update_is_burning():
+	$Node.visible = is_burning
+	craft_station.auto_craft = is_burning
+	craft_station.can_processing_craftings = is_burning
 
 
 func _on_input_inventory_item_added(_item, _amount):
@@ -37,11 +44,16 @@ func _on_input_inventory_item_removed(_item, _amount):
 	check()
 
 
-func check():
-	if input_inventory.contains(wood_item):
-		input_inventory.remove(wood_item)
-		if wood_item.properties.has("fuel"):
-			fuel += wood_item.properties["fuel"]
+func check() -> bool:
+	if is_burning:
+		return false
+	if not input_inventory.contains(wood_item):
+		return false
+	input_inventory.remove(wood_item)
+	if wood_item.properties.has("fuel"):
+		fuel += wood_item.properties["fuel"]
+		return true
+	return false
 
 
 func _process(delta):
