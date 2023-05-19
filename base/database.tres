@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="InventoryDatabase" load_steps=23 format=3 uid="uid://x5huasdaljjl"]
 
-[ext_resource type="Resource" path="res://base/categories/burnables.tres" id="1_ll643"]
+[ext_resource type="Resource" uid="uid://041ut5vu78mt" path="res://base/categories/burnables.tres" id="1_ll643"]
 [ext_resource type="Resource" path="res://base/categories/tool.tres" id="2_8oy0m"]
 [ext_resource type="Resource" uid="uid://vf4th6k6nu1k" path="res://base/categories/food.tres" id="3_46uk3"]
 [ext_resource type="Resource" uid="uid://mlfnrjl6taog" path="res://base/items/wood.tres" id="3_605sl"]
