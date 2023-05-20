@@ -7,6 +7,7 @@ signal changed_burning_state(is_burning : bool)
 @export var wood_item : InventoryItem
 @onready var gpu_particles_3d = $Node/GPUParticles3D
 @onready var craft_station : CraftStation = $CraftStation
+@onready var audio_stream_player_3d = $Node/AudioStreamPlayer3D
 
 @export var decrease_fuel_multiplier = 1
 
@@ -34,6 +35,7 @@ func _update_is_burning():
 	$Node.visible = is_burning
 	craft_station.auto_craft = is_burning
 	craft_station.can_processing_craftings = is_burning
+	audio_stream_player_3d.playing = is_burning
 
 
 func _on_input_inventory_item_added(_item, _amount):
@@ -49,7 +51,7 @@ func check() -> bool:
 		return false
 	if not input_inventory.contains(wood_item):
 		return false
-	input_inventory.remove(wood_item)
+	input_inventory.remove(wood_item, 1)
 	if wood_item.properties.has("fuel"):
 		fuel += wood_item.properties["fuel"]
 		return true

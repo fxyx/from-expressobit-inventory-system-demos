@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://bsr3c46mxy2fw"]
+[gd_scene load_steps=23 format=3 uid="uid://bsr3c46mxy2fw"]
 
 [ext_resource type="Script" path="res://fps/campfire.gd" id="1_11afe"]
 [ext_resource type="PackedScene" uid="uid://bmewr3e0dn71h" path="res://assets/survival-kit-1.1/Models/GLTF format/campfire.glb" id="2_eww0k"]
@@ -10,6 +10,7 @@
 [ext_resource type="Resource" uid="uid://041ut5vu78mt" path="res://base/categories/burnables.tres" id="8_81xo0"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/slot.gd" id="9_fbwwc"]
 [ext_resource type="Resource" uid="uid://vf4th6k6nu1k" path="res://base/categories/food.tres" id="10_3i6mn"]
+[ext_resource type="AudioStream" uid="uid://c7erllg58q3h3" path="res://assets/audios/campfire_crackle_2.wav" id="11_dck0x"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_v5tyu"]
 size = Vector3(1.20602, 1.16811, 1.2693)
@@ -103,6 +104,6 @@ draw_skin = SubResource("Skin_2ffj2")
 light_color = Color(1, 1, 0.0901961, 1)
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Node"]
+stream = ExtResource("11_dck0x")
 
 [connection signal="item_added" from="InputInventory" to="." method="_on_input_inventory_item_added"]
-[connection signal="item_removed" from="InputInventory" to="." method="_on_input_inventory_item_removed"]
