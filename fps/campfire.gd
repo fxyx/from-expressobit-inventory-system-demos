@@ -42,10 +42,6 @@ func _on_input_inventory_item_added(_item, _amount):
 	check()
 
 
-func _on_input_inventory_item_removed(_item, _amount):
-	check()
-
-
 func check() -> bool:
 	if is_burning:
 		return false
