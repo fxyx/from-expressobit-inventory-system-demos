@@ -79,6 +79,7 @@ transform = Transform3D(5, 0, 4.76837e-07, 0, 5, 0, -4.76837e-07, 0, 5, 0, 0, 0)
 script = ExtResource("3_wvkpn")
 input_inventory = NodePath("../InputInventory")
 output_inventory = NodePath("../InputInventory")
+limit_number_crafts = 1
 type = ExtResource("4_bov00")
 database = ExtResource("5_72vu1")
 
@@ -86,6 +87,7 @@ database = ExtResource("5_72vu1")
 script = ExtResource("6_1ngfx")
 slots = Array[ExtResource("9_fbwwc")]([SubResource("Resource_dwc0d"), SubResource("Resource_xqhmu"), SubResource("Resource_e7inh"), SubResource("Resource_612oe")])
 slot_amount = 4
+inventory_name = "Campfire"
 recreate_slots_on_ready = false
 database = ExtResource("5_72vu1")
 
