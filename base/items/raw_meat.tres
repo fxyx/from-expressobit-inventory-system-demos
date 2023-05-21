@@ -7,7 +7,7 @@
 [resource]
 script = ExtResource("1_h2enu")
 id = 8
-max_stack = 1
+max_stack = 5
 name = "Raw Meat"
 icon = ExtResource("1_hsqvv")
 weight = 1.0

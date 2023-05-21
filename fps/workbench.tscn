@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://fps/workbench.gd" id="1_sr5uf"]
 [ext_resource type="PackedScene" uid="uid://dushsiymhgtib" path="res://assets/survival-kit-1.1/Models/GLTF format/workbench.glb" id="2_2rlru"]
-[ext_resource type="Script" path="res://addons/inventory-system/craft/craft-station.gd" id="3_i83tc"]
-[ext_resource type="Resource" path="res://base/craft-stations/workbench.tres" id="4_g10kw"]
+[ext_resource type="Script" path="res://addons/inventory-system/craft/craft_station.gd" id="3_yr08k"]
+[ext_resource type="Resource" path="res://base/craft_stations/workbench.tres" id="4_g10kw"]
 [ext_resource type="Resource" uid="uid://x5huasdaljjl" path="res://base/database.tres" id="5_d4au8"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory.gd" id="6_js2dm"]
 
@@ -24,7 +24,7 @@ shape = SubResource("BoxShape3D_v5tyu")
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
 
 [node name="CraftStation" type="Node" parent="." node_paths=PackedStringArray("input_inventory", "output_inventory")]
-script = ExtResource("3_i83tc")
+script = ExtResource("3_yr08k")
 input_inventory = NodePath("../InputInventory")
 output_inventory = NodePath("../InputInventory")
 type = ExtResource("4_g10kw")

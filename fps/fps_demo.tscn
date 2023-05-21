@@ -10,52 +10,60 @@
 [ext_resource type="PackedScene" uid="uid://ds8coutyid33j" path="res://assets/survival-kit-1.1/Models/GLTF format/workbenchGrind.glb" id="9_ltu3q"]
 [ext_resource type="Script" path="res://base/setup_keys.gd" id="10_1ncja"]
 [ext_resource type="PackedScene" uid="uid://dxm5l6pst55ip" path="res://assets/survival-kit-1.1/Models/GLTF format/workbenchAnvil.glb" id="10_ds5rh"]
-[ext_resource type="Script" path="res://addons/inventory-system/core/slot.gd" id="10_mvvba"]
+[ext_resource type="Resource" path="res://base/categories/tool.tres" id="10_n1hfr"]
 [ext_resource type="PackedScene" uid="uid://bvjagvllelgcf" path="res://fps/workbench.tscn" id="11_fkc5i"]
-[ext_resource type="Resource" path="res://base/categories/tool.tres" id="12_tehqe"]
+[ext_resource type="Script" path="res://addons/inventory-system/core/categorized_slot.gd" id="11_ntpr3"]
 [ext_resource type="PackedScene" path="res://fps/player.tscn" id="14_kqlku"]
 [ext_resource type="PackedScene" uid="uid://d2gketv1q2cph" path="res://fps/level.tscn" id="16_46jkf"]
 [ext_resource type="PackedScene" uid="uid://bsr3c46mxy2fw" path="res://fps/campfire.tscn" id="16_47qja"]
 
-[sub_resource type="Resource" id="Resource_aaejx"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_ux01p"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_b62qw"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_ovfnm"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_6ohm7"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_r1smy"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_28wp1"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_koj8s"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_lnra6"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_7c5qi"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_1ugai"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_c5qts"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_ppsln"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_7rybn"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_5yrxj"]
-script = ExtResource("10_mvvba")
+[sub_resource type="Resource" id="Resource_gytiw"]
+script = ExtResource("11_ntpr3")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("10_n1hfr")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("12_tehqe")])
+max_stack = -1
 
 [node name="Demo" type="Node"]
 script = ExtResource("1_mxj54")
@@ -184,7 +192,7 @@ inventory_name = "Static Inventory"
 transform = Transform3D(-0.0526846, 0, -0.998611, 0, 1, 0, 0.998611, 0, -0.0526846, 4.17498, 0.5, -0.65866)
 
 [node name="Inventory" parent="Box Inventory3" index="1"]
-slots = Array[ExtResource("10_mvvba")]([SubResource("Resource_aaejx"), SubResource("Resource_b62qw"), SubResource("Resource_6ohm7"), SubResource("Resource_28wp1"), SubResource("Resource_lnra6"), SubResource("Resource_1ugai"), SubResource("Resource_ppsln"), SubResource("Resource_5yrxj")])
+slots = Array[Resource("res://addons/inventory-system/core/slot.gd")]([SubResource("Resource_ux01p"), SubResource("Resource_ovfnm"), SubResource("Resource_r1smy"), SubResource("Resource_koj8s"), SubResource("Resource_7c5qi"), SubResource("Resource_c5qts"), SubResource("Resource_7rybn"), SubResource("Resource_gytiw")])
 create_slot_if_needed = false
 remove_slot_if_empty = false
 inventory_name = "Tools Inventory"

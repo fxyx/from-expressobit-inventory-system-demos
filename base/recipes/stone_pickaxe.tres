@@ -6,31 +6,31 @@
 [ext_resource type="Resource" uid="uid://cq41uaiw3k82b" path="res://base/items/stone.tres" id="3_onsct"]
 [ext_resource type="Resource" uid="uid://cm2wwn11jv4ev" path="res://base/items/stone_pickaxe.tres" id="4_j0aq5"]
 [ext_resource type="Script" path="res://addons/inventory-system/craft/recipe.gd" id="5_fghhy"]
-[ext_resource type="Resource" path="res://base/craft-stations/workbench.tres" id="6_ey1uy"]
+[ext_resource type="Resource" path="res://base/craft_stations/workbench.tres" id="6_ey1uy"]
 
 [sub_resource type="Resource" id="Resource_tjks1"]
 script = ExtResource("2_lau0n")
 item = ExtResource("1_ye5el")
 amount = 1
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([])
+max_stack = -1
 
 [sub_resource type="Resource" id="Resource_cl4p4"]
 script = ExtResource("2_lau0n")
 item = ExtResource("1_ablc0")
 amount = 2
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([])
+max_stack = -1
 
 [sub_resource type="Resource" id="Resource_tiivj"]
 script = ExtResource("2_lau0n")
 item = ExtResource("3_onsct")
 amount = 2
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([])
+max_stack = -1
 
 [sub_resource type="Resource" id="Resource_7427o"]
 script = ExtResource("2_lau0n")
 item = ExtResource("4_j0aq5")
 amount = 1
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([])
+max_stack = -1
 
 [resource]
 script = ExtResource("5_fghhy")

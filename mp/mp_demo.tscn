@@ -12,50 +12,58 @@
 [ext_resource type="Script" path="res://base/setup_keys.gd" id="10_efc1k"]
 [ext_resource type="PackedScene" uid="uid://bvjagvllelgcf" path="res://fps/workbench.tscn" id="10_jjthn"]
 [ext_resource type="Script" path="res://addons/inventory-system/multiplayer/craft/networked_craft_station.gd" id="11_sal7r"]
-[ext_resource type="Resource" path="res://base/categories/tool.tres" id="13_rbh8l"]
-[ext_resource type="Script" path="res://addons/inventory-system/core/slot.gd" id="14_cedla"]
+[ext_resource type="Resource" path="res://base/categories/tool.tres" id="13_2tia7"]
+[ext_resource type="Script" path="res://addons/inventory-system/core/categorized_slot.gd" id="14_vlveu"]
 [ext_resource type="PackedScene" uid="uid://bsr3c46mxy2fw" path="res://fps/campfire.tscn" id="15_tm3xm"]
 [ext_resource type="Script" path="res://mp/networked_campfire.gd" id="16_8v2e4"]
 
-[sub_resource type="Resource" id="Resource_aaejx"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_35cwp"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_b62qw"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_ms4tg"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_6ohm7"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_fwcn4"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_28wp1"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_c3pqd"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_lnra6"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_e5jpj"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_1ugai"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_xwjeh"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_ppsln"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_krb16"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
-[sub_resource type="Resource" id="Resource_5yrxj"]
-script = ExtResource("14_cedla")
+[sub_resource type="Resource" id="Resource_0ckmc"]
+script = ExtResource("14_vlveu")
+accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_2tia7")])
 amount = 0
-accepted_categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("13_rbh8l")])
+max_stack = -1
 
 [node name="MPDemo" type="Node"]
 script = ExtResource("1_fcmcx")
@@ -149,7 +157,7 @@ transform = Transform3D(-0.0526846, 0, -0.998611, 0, 1, 0, 0.998611, 0, -0.05268
 script = ExtResource("7_8khhq")
 sync_item_added_signal = true
 sync_item_removed_signal = true
-slots = Array[ExtResource("14_cedla")]([SubResource("Resource_aaejx"), SubResource("Resource_b62qw"), SubResource("Resource_6ohm7"), SubResource("Resource_28wp1"), SubResource("Resource_lnra6"), SubResource("Resource_1ugai"), SubResource("Resource_ppsln"), SubResource("Resource_5yrxj")])
+slots = Array[Resource("res://addons/inventory-system/core/slot.gd")]([SubResource("Resource_35cwp"), SubResource("Resource_ms4tg"), SubResource("Resource_fwcn4"), SubResource("Resource_c3pqd"), SubResource("Resource_e5jpj"), SubResource("Resource_xwjeh"), SubResource("Resource_krb16"), SubResource("Resource_0ckmc")])
 create_slot_if_needed = false
 remove_slot_if_empty = false
 inventory_name = "Tools Inventory"
