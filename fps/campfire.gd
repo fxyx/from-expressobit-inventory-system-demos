@@ -47,7 +47,10 @@ func check() -> bool:
 		return false
 	if not input_inventory.contains_category(burnable_category):
 		return false
-	var item = input_inventory.get_item_from_category(burnable_category)
+	var index = input_inventory.get_slot_index_with_an_item_of_category(burnable_category)
+	if index == -1:
+		return false
+	var item = input_inventory.slots[index].item
 	if item.properties.has("fuel"):
 		input_inventory.remove(item, 1)
 		fuel += item.properties["fuel"]
