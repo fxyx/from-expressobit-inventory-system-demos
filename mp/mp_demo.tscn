@@ -169,6 +169,7 @@ script = ExtResource("16_8v2e4")
 
 [node name="CraftStation" parent="Campfire" index="2"]
 script = ExtResource("11_sal7r")
+processing_mode = 0
 
 [node name="InputInventory" parent="Campfire" index="3"]
 script = ExtResource("7_8khhq")
