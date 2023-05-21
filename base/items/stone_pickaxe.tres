@@ -12,7 +12,7 @@ name = "Stone Pickaxe"
 icon = ExtResource("1_hlhk0")
 weight = 0.0
 properties = {
-"dropped_item": "res://addons/inventory-system/demos/fps/dropped_items/stone_pickaxe.tscn",
-"hand_item": "res://addons/inventory-system/demos/fps/hand_items/stone_pickaxe.tscn"
+"dropped_item": "res://fps/dropped_items/stone_pickaxe.tscn",
+"hand_item": "res://fps/hand_items/stone_pickaxe.tscn"
 }
 categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([ExtResource("1_jl1dl")])

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory_item.gd" id="1_fcne4"]
 [ext_resource type="Texture2D" uid="uid://bw4m1qyegtyin" path="res://assets/icons/branch.png" id="1_q41wd"]
-[ext_resource type="Resource" path="res://base/categories/burnables.tres" id="1_y6pmb"]
+[ext_resource type="Resource" uid="uid://041ut5vu78mt" path="res://base/categories/burnables.tres" id="1_y6pmb"]
 
 [resource]
 script = ExtResource("1_fcne4")

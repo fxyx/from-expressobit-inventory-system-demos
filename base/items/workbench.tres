@@ -11,7 +11,7 @@ name = "Workbench"
 icon = ExtResource("1_bhcp7")
 weight = 0.0
 properties = {
-"dropped_item": "res://addons/inventory-system/demos/fps/dropped_items/workbench.tscn",
-"hand_item": "res://addons/inventory-system/demos/fps/hand_items/workbench.tscn"
+"dropped_item": "res://fps/dropped_items/workbench.tscn",
+"hand_item": "res://fps/hand_items/workbench.tscn"
 }
 categories = Array[Resource("res://addons/inventory-system/core/item_category.gd")]([])

@@ -4,7 +4,7 @@ class_name Campfire
 signal changed_burning_state(is_burning : bool)
 
 @onready var input_inventory : Inventory = $InputInventory
-@export var wood_item : InventoryItem
+@export var burnable_category : ItemCategory
 @onready var gpu_particles_3d = $Node/GPUParticles3D
 @onready var craft_station : CraftStation = $CraftStation
 @onready var audio_stream_player_3d = $Node/AudioStreamPlayer3D
@@ -45,11 +45,12 @@ func _on_input_inventory_item_added(_item, _amount):
 func check() -> bool:
 	if is_burning:
 		return false
-	if not input_inventory.contains(wood_item):
+	if not input_inventory.contains_category(burnable_category):
 		return false
-	input_inventory.remove(wood_item, 1)
-	if wood_item.properties.has("fuel"):
-		fuel += wood_item.properties["fuel"]
+	var item = input_inventory.get_item_from_category(burnable_category)
+	if item.properties.has("fuel"):
+		input_inventory.remove(item, 1)
+		fuel += item.properties["fuel"]
 		return true
 	return false
 

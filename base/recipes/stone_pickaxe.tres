@@ -6,7 +6,7 @@
 [ext_resource type="Resource" uid="uid://cq41uaiw3k82b" path="res://base/items/stone.tres" id="3_onsct"]
 [ext_resource type="Resource" uid="uid://cm2wwn11jv4ev" path="res://base/items/stone_pickaxe.tres" id="4_j0aq5"]
 [ext_resource type="Script" path="res://addons/inventory-system/craft/recipe.gd" id="5_fghhy"]
-[ext_resource type="Resource" path="res://base/craft_stations/workbench.tres" id="6_ey1uy"]
+[ext_resource type="Resource" path="res://base/craft_stations/workbench.tres" id="7_vaok2"]
 
 [sub_resource type="Resource" id="Resource_tjks1"]
 script = ExtResource("2_lau0n")
@@ -37,5 +37,5 @@ script = ExtResource("5_fghhy")
 product = SubResource("Resource_7427o")
 byproducts = Array[ExtResource("2_lau0n")]([SubResource("Resource_tjks1")])
 time_to_craft = 4.0
-station = ExtResource("6_ey1uy")
+station = ExtResource("7_vaok2")
 ingredients = Array[ExtResource("2_lau0n")]([SubResource("Resource_cl4p4"), SubResource("Resource_tiivj")])
