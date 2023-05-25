@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://lwi2lvfj5ltx"]
+[gd_scene load_steps=18 format=3 uid="uid://lwi2lvfj5ltx"]
 
 [ext_resource type="Script" path="res://fps/props/shelf.gd" id="1_0djpg"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory.gd" id="1_cvyqa"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://addons/inventory-system/core/slot.gd" id="3_ocqf6"]
 [ext_resource type="PackedScene" uid="uid://43yusxh6v15d" path="res://fps/props/visual_inventory_3d.tscn" id="4_mhihf"]
 [ext_resource type="PackedScene" uid="uid://dm2evx8m3spa5" path="res://fps/props/visual_slot_3d.tscn" id="5_r40cv"]
+[ext_resource type="Material" uid="uid://crejuaexbgbp3" path="res://fps/materials/wood.tres" id="7_lelhm"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4yfqi"]
 size = Vector3(1, 1, 1.89007)
@@ -97,12 +98,25 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.45, -0.75)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.5, 0, 0, 0, 0.1, 0, 0, 0, 2, 0, 0, 0)
+material_override = ExtResource("7_lelhm")
+mesh = SubResource("BoxMesh_olkf5")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, -4.37114e-09, -1.2, 0, 0.1, -5.24537e-08, 0, -0.1, 1)
+material_override = ExtResource("7_lelhm")
+mesh = SubResource("BoxMesh_olkf5")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, -4.37114e-09, -1.2, 0, 0.1, -5.24537e-08, 0, -0.1, -1)
+material_override = ExtResource("7_lelhm")
 mesh = SubResource("BoxMesh_olkf5")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.5, 0, 0, 0, 0.1, 0, 0, 0, 2, 0, -0.5, 0)
+material_override = ExtResource("7_lelhm")
 mesh = SubResource("BoxMesh_olkf5")
 
 [node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.5, 0, 0, 0, 0.1, 0, 0, 0, 2, 0, 0.5, 0)
+material_override = ExtResource("7_lelhm")
 mesh = SubResource("BoxMesh_olkf5")

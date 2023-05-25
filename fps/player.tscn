@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3]
+[gd_scene load_steps=16 format=3 uid="uid://bnr02xnvoiun5"]
 
 [ext_resource type="Script" path="res://fps/player.gd" id="1_qhbqk"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/inventory_handler.gd" id="2_0npow"]
@@ -13,7 +13,6 @@
 [ext_resource type="Script" path="res://addons/inventory-system/craft/craft_station.gd" id="8_3m0xp"]
 [ext_resource type="AudioStream" uid="uid://cyu1f4p35abbj" path="res://assets/kenney_rpgaudio/Audio/bookClose.ogg" id="8_ckf1g"]
 [ext_resource type="AudioStream" uid="uid://df1ibxkrver3m" path="res://assets/kenney_rpgaudio/Audio/metalClick.ogg" id="8_oba2k"]
-
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ccrms"]
 
