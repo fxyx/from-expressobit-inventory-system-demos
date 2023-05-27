@@ -13,7 +13,7 @@
 [ext_resource type="Resource" path="res://base/categories/tool.tres" id="10_n1hfr"]
 [ext_resource type="PackedScene" uid="uid://bvjagvllelgcf" path="res://fps/workbench.tscn" id="11_fkc5i"]
 [ext_resource type="Script" path="res://addons/inventory-system/core/categorized_slot.gd" id="11_ntpr3"]
-[ext_resource type="PackedScene" path="res://fps/player.tscn" id="14_kqlku"]
+[ext_resource type="PackedScene" uid="uid://bnr02xnvoiun5" path="res://fps/player.tscn" id="14_kqlku"]
 [ext_resource type="PackedScene" uid="uid://d2gketv1q2cph" path="res://fps/level.tscn" id="16_46jkf"]
 [ext_resource type="PackedScene" uid="uid://bsr3c46mxy2fw" path="res://fps/campfire.tscn" id="16_47qja"]
 [ext_resource type="PackedScene" uid="uid://lwi2lvfj5ltx" path="res://fps/props/shelf.tscn" id="17_k32gy"]
@@ -153,17 +153,31 @@ layout_mode = 2
 text = "Right Mouse - Get half items from slot"
 horizontal_alignment = 2
 
-[node name="InteractMessage" type="Label" parent="UI/Labels"]
+[node name="Control" type="Control" parent="UI/Labels"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -64.0
-offset_top = -8.0
-offset_right = 64.0
-offset_bottom = 8.0
+offset_left = -0.5
+offset_top = -0.5
+offset_right = 0.5
+offset_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="InteractMessage" type="Label" parent="UI/Labels/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -102.0
+offset_top = -13.0
+offset_right = 103.0
+offset_bottom = 24.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "E - Open Loot"

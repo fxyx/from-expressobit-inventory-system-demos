@@ -9,7 +9,7 @@
 [ext_resource type="Material" uid="uid://crejuaexbgbp3" path="res://fps/materials/wood.tres" id="7_lelhm"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4yfqi"]
-size = Vector3(1, 1, 1.89007)
+size = Vector3(0.489384, 1, 2.10216)
 
 [sub_resource type="Resource" id="Resource_yxglh"]
 script = ExtResource("3_ocqf6")

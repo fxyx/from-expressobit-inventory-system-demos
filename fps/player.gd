@@ -18,6 +18,13 @@ var rot := Vector3()
 @onready var hotbar : Hotbar = get_node(hotbar_path)
 @onready var crafter : Crafter = get_node(crafter_path)
 @onready var raycast : RayCast3D = $Camera3D/RayCast3D
+@onready var camera_3d : Camera3D = $Camera3D
+@onready var interact_message_position : Control = $"../UI/Labels/Control"
+@onready var interact_message : Label = $"../UI/Labels/Control/InteractMessage"
+var default_interact_message_position : Vector2
+
+func _ready():
+	default_interact_message_position = interact_message_position.position
 
 
 func _physics_process(delta):
@@ -101,12 +108,29 @@ func interact():
 	if raycast.is_colliding():
 		var object = raycast.get_collider()
 		var node = object as Node
+		var shelf := node as Shelf
+		if shelf != null:
+			var inv = shelf.get_inventory()
+			if inv != null:
+				interact_message.visible = !inventory_handler.is_open(inv)
+				interact_message.text = shelf.get_interact_message()
+				interact_message_position.position = camera_3d.unproject_position(shelf.get_interaction_position(raycast.get_collision_point()))
+				if Input.is_action_just_pressed("interact"):
+					open_inventory(inv)
+					return
+				if Input.is_action_just_pressed("item_pickup"):
+					var item = shelf.get_actual_item()
+					if item != null:
+						inv.remove_at(shelf.slot_index, item)
+					return
+				return
 		var box := node as BoxInventory
 		if box != null:
 			var inv = box.get_inventory()
 			if inv != null:
-				$"../UI/Labels/InteractMessage".visible = !inventory_handler.is_open(inv)
-				$"../UI/Labels/InteractMessage".text = "E to Open Inventory"
+				interact_message.visible = !inventory_handler.is_open(inv)
+				interact_message.text = "E to Open Inventory"
+				interact_message_position.position = camera_3d.unproject_position(box.position)
 				if Input.is_action_just_pressed("interact"):
 					open_inventory(inv)
 				return
@@ -114,8 +138,9 @@ func interact():
 		if campfire != null:
 			var station = campfire.get_station()
 			if station != null:
-				$"../UI/Labels/InteractMessage".visible = !crafter.is_open(station)
-				$"../UI/Labels/InteractMessage".text = "E to Open Station"
+				interact_message.visible = !crafter.is_open(station)
+				interact_message.text = "E to Open Station"
+				interact_message_position.position = camera_3d.unproject_position(campfire.position)
 				if Input.is_action_just_pressed("interact"):
 					open_inventory(station.input_inventory)
 				return
@@ -123,16 +148,19 @@ func interact():
 		if workbench != null:
 			var station = workbench.get_station()
 			if station != null:
-				$"../UI/Labels/InteractMessage".visible = !crafter.is_open(station)
-				$"../UI/Labels/InteractMessage".text = "E to Open Station"
+				interact_message.visible = !crafter.is_open(station)
+				interact_message.text = "E to Open Station"
+				interact_message_position.position = camera_3d.unproject_position(workbench.position)
 				if Input.is_action_just_pressed("interact"):
 					open_station(station)
 				return
 		var dropped_item := node as DroppedItem3D
 		if dropped_item != null:
 			if dropped_item.is_pickable:
-				$"../UI/Labels/InteractMessage".visible = true
-				$"../UI/Labels/InteractMessage".text = "E to Pickup"
+				interact_message.visible = true
+				interact_message.text = "E to Pickup"
+				interact_message_position.position = camera_3d.unproject_position(dropped_item.position)
+
 				if Input.is_action_just_pressed("interact"):
 					inventory_handler.pick_to_inventory(dropped_item)
 			return
@@ -141,7 +169,8 @@ func interact():
 				var item = hotbar.get_selected_item()
 				if item != null:
 					place_item(item, raycast.get_collision_point())
-	$"../UI/Labels/InteractMessage".visible = false
+	interact_message.visible = false
+	interact_message_position.position = default_interact_message_position
 
 func place_item(item : InventoryItem, position_to_place : Vector3):
 	# TODO Add Preview
