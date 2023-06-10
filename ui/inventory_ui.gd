@@ -67,6 +67,27 @@ func _update_slots():
 		slots.append(slot_obj)
 		slot_obj.update_info_with_slot(slot)
 
+	## Set focus neighbors
+	for slot_idx in slots.size():
+		var slot = slots[slot_idx]
+		for neighbor in ["left", "top", "right", "bottom"]:
+			var neighbor_idx: int
+			match neighbor:
+				"left":
+					neighbor_idx = slot_idx - 1
+					if slot_idx % slots_container.columns == 0:
+						neighbor_idx = -1
+				"top":
+					neighbor_idx = slot_idx - slots_container.columns
+				"right":
+					neighbor_idx = slot_idx + 1
+					if (slot_idx + 1) % slots_container.columns == 0:
+						neighbor_idx = -1
+				"bottom":
+					neighbor_idx = slot_idx + slots_container.columns
+			if neighbor_idx >= 0 and neighbor_idx < slots.size():
+				slot.set("focus_neighbor_"+neighbor, slots[neighbor_idx].get_path())
+
 
 func _on_updated_slot(index):
 	slots[index].update_info_with_slot(inventory.slots[index])
@@ -85,7 +106,7 @@ func _on_slot_removed(index):
 
 
 func _on_slot_gui_input(event : InputEvent, slot_obj):
-	if event is InputEventMouseButton:
+	if event is InputEventMouseButton or event.is_action("ui_accept"):
 		if event.pressed:	
 			var index = slots.find(slot_obj)
 			if index < 0:
