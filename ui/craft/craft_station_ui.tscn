@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=3]
 
-[ext_resource type="Script" path="res://addons/inventory-system/ui/craft/craft_station_ui.gd" id="1_ny8hp"]
+[ext_resource type="Script" path="res://ui/craft/craft_station_ui.gd" id="1_ny8hp"]
 [ext_resource type="PackedScene" path="res://ui/craft/recipe_ui.tscn" id="2_jgmgq"]
-[ext_resource type="Script" path="res://addons/inventory-system/ui/craft/craftings_ui.gd" id="3_imm8o"]
+[ext_resource type="Script" path="res://ui/craft/craftings_ui.gd" id="3_imm8o"]
 [ext_resource type="PackedScene" path="res://ui/craft/crafting_ui.tscn" id="4_5nmfv"]
 [ext_resource type="Texture2D" uid="uid://o67rdxq6qg4h" path="res://assets/uipack-rpg/PNG/panelInset_beige.png" id="5_lif7e"]
 [ext_resource type="Texture2D" uid="uid://cxmsgncxxwobe" path="res://assets/uipack-rpg/PNG/panelInset_beigeLight.png" id="6_bva7h"]
