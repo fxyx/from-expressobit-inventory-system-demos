@@ -82,9 +82,11 @@ func _drop_area_input(event : InputEvent):
 
 
 func _open_player_inventory():
-	player_inventory_ui.visible = true;
+	player_inventory_ui.visible = true
 	hotbar_ui.visible = false
 	drop_area.visible = true
+	if not player_inventory_ui.slots.is_empty():
+		player_inventory_ui.slots[0].grab_focus()
 
 
 # Open Inventory of player	
@@ -140,7 +142,7 @@ func _slot_point_down(event : InputEvent, slot_index : int, inventory : Inventor
 			return
 		var slot = inventory.slots[slot_index]
 		var amount = slot.amount
-		if event.button_index == 2:
+		if event is InputEventMouseButton and event.button_index == 2:
 			amount = ceili(slot.amount/2.0)
 		inventory_handler.to_transaction(slot_index, inventory, amount)	
 		$SlotClick.play()

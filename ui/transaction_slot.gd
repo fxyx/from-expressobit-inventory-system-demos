@@ -19,9 +19,11 @@ func clear_info():
 	
 func _process(delta):
 	if self.visible:
-		self.global_position = get_global_mouse_position() - size/2
-
-
+		if get_viewport().gui_get_focus_owner():
+			self.global_position = get_viewport().gui_get_focus_owner().global_position
+		else:
+			self.global_position = get_global_mouse_position() - size/2
+			
 func _on_drop_area_mouse_exited():
 	$DropIcon.visible = false
 
