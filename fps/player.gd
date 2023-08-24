@@ -164,11 +164,12 @@ func interact():
 				if Input.is_action_just_pressed("interact"):
 					inventory_handler.pick_to_inventory(dropped_item)
 			return
-		if node.is_in_group("placeable"):
-			if Input.is_action_just_pressed("interact_item"):
-				var item = hotbar.get_selected_item()
-				if item != null:
-					place_item(item, raycast.get_collision_point())
+		if node != null:
+			if node.is_in_group("placeable"):
+				if Input.is_action_just_pressed("interact_item"):
+					var item = hotbar.get_selected_item()
+					if item != null:
+						place_item(item, raycast.get_collision_point())
 	interact_message.visible = false
 	interact_message_position.position = default_interact_message_position
 
